@@ -10,8 +10,8 @@
     "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm client\"",
     "client": "cd client && npm start",
     "install": "cd client && npm install",
-    "build": "cd client && npm build",
-    "heroku-postbuild": "npm build"
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
   },
   "repository": {
     "type": "git",
